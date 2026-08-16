@@ -83,8 +83,6 @@ SettingsCatalog,2025-NCSC-BitLocker.json,BitLocker,Administrative Templates/Wind
 SettingsCatalog,2025-NCSC-BitLocker.json,BitLocker,Administrative Templates/Windows Components/BitLocker Drive Encryption/Fixed Data Drives,Deny write access to fixed drives not protected by BitLocker,Enabled
 SettingsCatalog,2025-NCSC-BitLocker.json,BitLocker,Administrative Templates/Windows Components/BitLocker Drive Encryption/Removable Data Drives,Deny write access to removable drives not protected by BitLocker,Enabled
 SettingsCatalog,2025-NCSC-BitLocker.json,BitLocker,Administrative Templates/Windows Components/BitLocker Drive Encryption/Removable Data Drives,Do not allow write access to devices configured in another organization,True
-SettingsCatalog,2025-NCSC-Defender.json,SettingsCatalog,Administrative Templates/Windows Components/Microsoft Defender Antivirus/Network Inspection System,Turn on definition retirement,Enabled
-SettingsCatalog,2025-NCSC-Defender.json,SettingsCatalog,Administrative Templates/Windows Components/Microsoft Defender Antivirus/Network Inspection System,Turn on protocol recognition,Enabled
 SettingsCatalog,2025-NCSC-Defender.json,SettingsCatalog,Browser,Allow Smart Screen,Allow
 SettingsCatalog,2025-NCSC-Defender.json,SettingsCatalog,Browser,Prevent Smart Screen Prompt Override,Enabled
 SettingsCatalog,2025-NCSC-Defender.json,SettingsCatalog,Defender,Allow Archive Scanning,Allowed. Scans the archive files.
