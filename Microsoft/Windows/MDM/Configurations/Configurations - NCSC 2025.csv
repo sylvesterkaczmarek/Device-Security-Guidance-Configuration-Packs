@@ -163,7 +163,7 @@ SettingsCatalog,2025-NCSC-Device-Control.json,Device Control,Administrative Temp
 SettingsCatalog,2025-NCSC-Device-Control.json,Device Control,Administrative Templates/System/Device Installation/Device Installation Restrictions,Also apply to matching devices that are already installed.,True
 SettingsCatalog,2025-NCSC-Device-Control.json,Device Control,Administrative Templates/System/System/Removable Storage Access,WPD Devices: Deny read access,Disabled
 SettingsCatalog,2025-NCSC-Device-Control.json,Device Control,Administrative Templates/System/System/Removable Storage Access,WPD Devices: Deny write access,Disabled
-SettingsCatalog,2025-NCSC-Device-Control.json,Device Control,Dma Guard,Device Enumeration Policy,Only after log in/screen unlock
+SettingsCatalog,2025-NCSC-Device-Control.json,Device Control,Dma Guard,Device Enumeration Policy,Block all (Most restrictive)
 SettingsCatalog,2025-NCSC-Device-Control.json,Device Control,Bluetooth,Allow Advertising,Block
 SettingsCatalog,2025-NCSC-Device-Control.json,Device Control,Allow Discoverable Mode,Block
 SettingsCatalog,2025-NCSC-Device-Control.json,Device Control,Allow Preparing,Block
