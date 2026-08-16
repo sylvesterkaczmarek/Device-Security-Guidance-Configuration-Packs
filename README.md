@@ -62,17 +62,11 @@ Device-Security-Guidance-Configuration-Packs
 │
 ├───Apple
 │   ├───iOS
-│   │       NCSC_example_iOS_device_configuration.mobileconfig
-│   │       NCSC_example_iOS_VPN_configuration.mobileconfig
-│   │       NCSC_iOS_configurations.csv
-│   │       NCSC_iOS_configurations.md
+│   │       NCSC iOS Example Configurations.mobileconfig
+│   │       NCSC_iOS_Configurations.md
 │   │       README.md
 │   │
 │   └───macOS
-│           macos_provisioning_script.sh
-│           NCSC_example_macOS_VPN_configuration.mobileconfig
-│           NCSC_macOS_configurations.csv
-│           NCSC_macOS_configurations.md
 │           README.md
 │
 ├───Google
@@ -82,7 +76,7 @@ Device-Security-Guidance-Configuration-Packs
 │   │       README.md
 │   │
 │   └───ChromeOS
-│           NCSC_ChromeOS_2025_configuration.csv
+│           NCSC_ChromeOS_2025_configurations.csv
 │           NCSC_ChromeOS_2025_configurations.md
 │           README.md
 │
@@ -91,35 +85,37 @@ Device-Security-Guidance-Configuration-Packs
         │   README.md
         │
         └───MDM
-            └───Configurations
-                │   Configurations_-_NCSC 2025.csv
-                │   Configurations_-_NCSC 2025.md
-                |
-                ├───AppLocker
-                |     AppLocker_appx.xml
-                |     AppLocker_dll.xml
-                |     AppLocker_exe.xml
-                |     AppLocker_msi.xml
-                |     AppLocker_script.xml
-                |
-                ├───DeviceConfiguration
-                |     2025-NCSC-Surface-DFCI.json
-                |
-                ├───EndpointSecurity
-                |     2025-NCSC-Account-Protections.json
-                |     2025-NCSC-Account-Protections_Settings.json
-                |     2025-NCSC-Application-Control.json
-                |     2025-NCSC-Application-Control_Settings.json
-                |
-                └───SettingsCatalog
-                      2025-NCSC-ASR.json
-                      2025-NCSC-App-Control-for-Business.json
-                      2025-NCSC-BitLocker.json
-                      2025-NCSC-Defender-Antivirus.json
-                      2025-NCSC-Defender.json
-                      2025-NCSC-Device-Control.json
-                      2025-NCSC-Edge.json
-                      2025-NCSC-General.json
+  └───Configurations
+      │   Configurations - NCSC 2025.csv
+      │   Configurations - NCSC 2025.md
+      │
+      ├───AppLocker
+      │     AppLocker_appx.xml
+      │     AppLocker_dll.xml
+      │     AppLocker_exe.xml
+      │     AppLocker_msi.xml
+      │     AppLocker_script.xml
+      │     README.md
+      │
+      ├───DeviceConfiguration
+      │     2025-NCSC-Surface-DFCI.json
+      │
+      ├───EndpointSecurity
+      │     2025-NCSC-Account-Protections.json
+      │     2025-NCSC-Account-Protections_Settings.json
+      │     2025-NCSC-Application-Control.json
+      │     2025-NCSC-Application-Control_Settings.json
+      │
+      └───SettingsCatalog
+            2025-NCSC-ASR.json
+            2025-NCSC-App-Control-for-Business.json
+            2025-NCSC-BitLocker.json
+            2025-NCSC-Defender-Antivirus.json
+            2025-NCSC-Defender.json
+            2025-NCSC-Device-Control.json
+            2025-NCSC-Edge.json
+            2025-NCSC-General.json
+            2025-NCSC-Windows-Security-Experience.json
 ```
 
 

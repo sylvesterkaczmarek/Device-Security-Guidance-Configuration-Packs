@@ -7,9 +7,9 @@ Remember, any guidance points given here are recommendations - they are not mand
 
 This configuration was last tested against Windows 10 22H2 in December 2024 and Windows 11 in April 2025.
 
-We recomend you check out the parent page [README](https://github.com/ukncsc/Device-Security-Guidance-Configuration-Packs) before using these guides. The guides listed here are designed for use with Microsoft Intune and can be loaded using the `.json` files in the pack and following the installation instructions linked under the __Supplementary Information__ section of this document.
+We recommend you check out the parent page [README](https://github.com/ukncsc/Device-Security-Guidance-Configuration-Packs) before using these guides. The guides listed here are designed for use with Microsoft Intune and can be loaded using the `.json` files in the pack and following the installation instructions linked under the __Supplementary Information__ section of this document.
 
-The settings we have listed can be viewed reviewed manually inside the [Configurations 2025 (markdown)]() and [Configurations 2025 (csv)]() files.
+The settings we have listed can be reviewed manually in the [Configurations 2025 (markdown)](MDM/Configurations/Configurations%20-%20NCSC%202025.md) and [Configurations 2025 (csv)](MDM/Configurations/Configurations%20-%20NCSC%202025.csv) files.
 
 ## Supplementary Information ##
 
