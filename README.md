@@ -142,13 +142,18 @@ Manually apply the settings, as specified in the policy file.
 ### Microsoft Intune
 
 #### Windows
-Using scripts available in [Microsoft's Graph repository](https://github.com/microsoft/mggraph-intune-samples/tree/main/DeviceConfiguration). You will need to locate the relevant import script for the policy type you are importing. Once you have located the script, you can import these configurations directly into your Intune tenancy by following these steps as an example:
-1. Locate `DeviceConfiguration_Import_FromJSON.ps1`, this is the script that is required to import JSON-format configurations into Endpoint Manager
-2. Run this script in PowerShell on the device you use for administration of Azure and Endpoint Manager (such as a PAW), it will prompt for your Entra ID credentials
-3. On sucessful authentication, the script will then prompt for a location for the JSON file you want to upload
-4. So long as the file is found, and the Entra ID account provided has the correct privileges, the configuration will be imported into Endpoint Manager. Policy and Profile Manager is a Built-in RBAC role which will allow configuration importing.
+Most Windows JSON files in the `Microsoft/Windows/MDM/Configurations/SettingsCatalog` folder are Microsoft Intune Settings Catalog policy exports. Current versions of Intune support importing these JSON files directly in the Intune admin center:
 
-A manual version of the policies and settings are available within the repository README documents.
+1. Sign in to the [Microsoft Intune admin center](https://intune.microsoft.com/).
+2. Go to **Devices > Manage devices > Configuration**.
+3. Select **Create > Import policy**.
+4. Select the Settings Catalog JSON file, give the imported policy a name, and save it.
+
+Microsoft documents the Settings Catalog import/export workflow in [Use the Intune settings catalog to configure settings](https://learn.microsoft.com/en-us/intune/device-configuration/settings-catalog/#import-and-export-a-profile).
+
+The repository also contains policy exports under `EndpointSecurity` and `DeviceConfiguration`. These are different Intune policy types and should be imported or recreated using the current method supported for that policy type rather than assuming the Settings Catalog import path applies to every JSON file.
+
+A manual version of the policies and settings is available in the repository inventory files.
 
 #### macOS, iOS, and Android
 Follow the instructions on the Endpoint Manager pages for configurating [macOS](https://docs.microsoft.com/en-us/mem/intune/configuration/custom-settings-macos), [iOS](https://docs.microsoft.com/en-us/mem/intune/configuration/custom-settings-ios) and [Android](https://docs.microsoft.com/en-us/mem/intune/configuration/custom-settings-android-for-work) and apply the configurations in the corresponding file.
