@@ -311,3 +311,5 @@ SettingsCatalog,2025-NCSC-Windows-Security-Experience.json,Windows Security Expe
 SettingsCatalog,2025-NCSC-Windows-Security-Experience.json,Windows Security Experience,Windows Defender Security Center,Hide Ransomware Data Recovery,(Disable or not configured) The Ransomware data recovery area will be visible.
 SettingsCatalog,2025-NCSC-Windows-Security-Experience.json,Windows Security Experience,Windows Defender Security Center,Hide Windows Security Notification Area Control,Disabled
 SettingsCatalog,2025-NCSC-Windows-Security-Experience.json,Windows Security Experience,Defender,TamperProtection (Device),On
+SettingsCatalog,2025-NCSC-General.json,Settings catalog,Administrative Templates/System/Audit Process Creation,Include command line in process creation events,Enabled
+SettingsCatalog,2025-NCSC-General.json,Settings catalog,Advanced Audit Policy Configuration/System Audit Policies/Detailed Tracking,Detailed Tracking Audit Process Creation,Success
